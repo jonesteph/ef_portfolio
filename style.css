@@ -1,1 +1,45 @@
 /* Here are the styling choices */
+
+/* Setting up the basic palette: 
+1. steel blue background (chosen in vscode to match denver image)
+2. setting basic font choices
+*/
+body{
+	background-color:rgb(110, 140, 165);
+	font-family: Georgia,sans-serif
+}
+
+/* Fixing the images positions and sizes.
+Also padding the right of the denver image to create space
+between the text for legibiliy. */
+img{
+	width: 300px;
+}
+
+header div img{
+	width: 600px;
+	float: left;
+	padding-right:75px;
+}
+
+/* Make the headings stand out with color and font*/
+h1, h2, h3{
+	color:rgb(62, 61, 73);
+	font-family: Arial, serif
+}
+
+/* Just needed to even out with pixel size */
+main, footer{
+	margin:25px
+}
+
+/* Formatting the hypertext colors*/
+a:link    { color: rgb(255, 187, 0);  }
+a:visited { color: rgb(152, 153, 168);   }
+a:hover   { color: rgb(114, 104, 76); }
+a:active  { color: rgb(85, 84, 50);  }
+
+/* Making a round class for author image*/
+.round {
+	border-radius: 50%;
+  }
