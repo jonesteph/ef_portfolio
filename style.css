@@ -42,4 +42,12 @@ a:active  { color: rgb(85, 84, 50);  }
 /* Making a round class for author image*/
 .round {
 	border-radius: 50%;
+	height: 300px
   }
+
+/* Making a large right heading class */
+.large-right{
+	font-size: 40px;
+	text-align: right;
+	padding-right:75px
+}
