@@ -5,7 +5,7 @@
 2. setting basic font choices
 */
 body{
-	background-color:rgb(110, 140, 165);
+	background-color: rgb(110, 140, 165);
 	font-family: Georgia,sans-serif
 }
 
@@ -34,10 +34,10 @@ main, footer{
 }
 
 /* Formatting the hypertext colors*/
-a:link    { color: rgb(255, 187, 0);  }
-a:visited { color: rgb(152, 153, 168);   }
-a:hover   { color: rgb(114, 104, 76); }
-a:active  { color: rgb(85, 84, 50);  }
+a:link    { color: white;  }
+a:visited { color: rgb(62, 61, 73);   }
+a:hover   { color: rgb(229, 226, 226); }
+a:active  { color: black;  }
 
 /* Making a round class for author image*/
 .round {
